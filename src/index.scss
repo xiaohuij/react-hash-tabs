@@ -1,0 +1,46 @@
+.react-hash-tabs {
+  &__tab-list {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #000;
+  }
+
+  &__tab {
+    position: relative;
+    display: inline-block;
+    margin-bottom: -1px;
+    border-radius: 5px 5px 0 0;
+    border: 1px solid transparent;
+
+    a, a:visited {
+      padding: 0 12px;
+      display: inline-block;
+      cursor: pointer;
+      line-height: 40px;
+      color: #333;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    &--selected {
+      border-color: #000;
+      border-bottom-color: #fff;
+
+      a, a:visited {
+        color: #000;
+      }
+    }
+  }
+
+  &__tab-panel {
+    display: none;
+
+    &--selected {
+      display: block;
+    }
+  }
+}
