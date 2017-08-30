@@ -781,7 +781,8 @@ HashTabs.propTypes = {
 };
 
 HashTabs.defaultProps = {
-  isHash: true
+  isHash: true,
+  tabs: []
 };
 
 exports.default = HashTabs;

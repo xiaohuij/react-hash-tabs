@@ -74,6 +74,7 @@ HashTabs.propTypes = {
 
 HashTabs.defaultProps = {
   isHash: true,
+  tabs: [],
 }
 
 export default HashTabs
